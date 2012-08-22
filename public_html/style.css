@@ -1,0 +1,64 @@
+*{ margin:0; padding:0;}
+body{ font:100% normal Arial, Helvetica, sans-serif; background:#161712; color:#fff;}
+form,input,select,textarea{margin:0; padding:0; color:#ffffff;}
+
+form {
+background:#222222;
+border:1px solid #262626;
+margin:20px;
+padding:10px;
+width:640px;
+}
+
+fieldset {
+color:#999;
+border:1px solid #333;
+}
+
+form li {
+padding:5px;
+margin-bottom:1px;
+list-style-type:none;
+font-size:89%;
+background:#1C1C1C;
+}
+
+form label {
+background:#1C1C1C;
+border-top:1px solid #262626;
+color:#ccc;
+border-bottom:1px solid #161712;
+float:left;
+width:200px;
+text-align:right;
+margin-right:7px;
+line-height:23px;	 /* This will make the labels vertically centered with the inputs */
+}
+
+form select, form input, form textarea {
+padding:4px;
+width:200px;
+background:#262626;
+border-bottom: 1px double #171717;
+border-top: 1px double #171717;
+border-left:1px double #333333;
+border-right:1px double #333333;
+}
+
+form input:focus, form textarea:focus {}
+
+form input[type="submit"]{
+background:#111;
+color:#aaa;
+border:none;
+padding:4px 8px 4px 28px;
+border-radius:15%; /* Don't expect this to work on IE6 or 7 */
+-moz-border-radius:15%;
+-webkit-border-radius:15%;
+margin-left:200px; /* Total width of the labels + their right margin */
+cursor:pointer;
+}
+
+form button:hover {
+background-color:#006633;
+}
